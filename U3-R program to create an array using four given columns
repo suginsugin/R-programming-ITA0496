@@ -1,0 +1,6 @@
+array_data <- array(1:24, dim = c(4, 3, 2))
+print(array_data)
+
+even_integers <- seq(52, 62, by = 2)
+array_even <- matrix(even_integers, nrow = 5, ncol = 3)
+print(array_even)
