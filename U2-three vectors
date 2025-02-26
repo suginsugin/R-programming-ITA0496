@@ -1,0 +1,12 @@
+numeric_data <- c(1, 2, 3, 4, 5)
+character_data <- c("apple", "banana", "cherry")
+logical_data <- c(TRUE, FALSE, TRUE)
+
+print(numeric_data)
+print(typeof(numeric_data))
+
+print(character_data)
+print(typeof(character_data))
+
+print(logical_data)
+print(typeof(logical_data))
