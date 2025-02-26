@@ -1,0 +1,18 @@
+unique_string_elements <- function(input_string) {
+  unique_chars <- unique(unlist(strsplit(input_string, NULL)))
+  return(unique_chars)
+}
+
+unique_vector_numbers <- function(input_vector) {
+  unique_numbers <- unique(input_vector)
+  return(unique_numbers)
+}
+
+string_input <- "programming"
+vector_input <- c(1, 2, 2, 3, 4, 4, 5)
+
+unique_chars <- unique_string_elements(string_input)
+unique_numbers <- unique_vector_numbers(vector_input)
+
+print(unique_chars)
+print(unique_numbers)
