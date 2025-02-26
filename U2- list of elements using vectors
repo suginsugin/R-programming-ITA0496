@@ -1,0 +1,12 @@
+vector1 <- c(1, 2, 3)
+vector2 <- c("A", "B", "C")
+
+matrix1 <- matrix(1:6, nrow = 2)
+
+my_function <- function(x) {
+  return(x^2)
+}
+
+my_list <- list(vector1 = vector1, vector2 = vector2, matrix1 = matrix1, function_output = my_function(2))
+
+print(my_list)
